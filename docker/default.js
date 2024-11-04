@@ -21,7 +21,7 @@ module.exports = {
     // https: 4443,
 
     // HTTP port
-    http: 8089,
+    http: 8080,
 
     // IPC port -- changing this will likely break all add-ons
     ipc: 9500,
