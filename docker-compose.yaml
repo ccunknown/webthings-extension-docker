@@ -11,7 +11,7 @@ services:
       - "TZ=Asia/Bangkok"
     volumes:
       - ./webthings-config:/home/node/.webthings
-      # - ./redis-config:/etc/redis
+      - ./default.js:/home/node/webthings/gateway/config/default.js
     logging:
       driver: "json-file"
       options:
