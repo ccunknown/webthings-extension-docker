@@ -51,11 +51,11 @@ module.exports = {
 
     // Endpoint of the PageKite server
     // registration_endpoint: 'https://api.webthings.io:8443',
-    registration_endpoint: 'https://api.wot.meca.in.th',
+    registration_endpoint: 'https://apis.tun.meca.in.th',
 
     // Base domain
     // domain: 'webthings.io',
-    domain: 'gw.wot.meca.in.th',
+    domain: 'tun.meca.in.th',
 
     // Command to run PageKite
     pagekite_cmd: path.normalize(path.join(process.cwd(), 'pagekite.py')),
