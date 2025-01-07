@@ -11,7 +11,7 @@ services:
       - "TZ=Asia/Bangkok"
     volumes:
       - ./webthings-config:/home/node/.webthings
-      #- ./lime-scripts:/home/node/extensions/lime-extension/src/service/scripts-service/scripts
+      - ./lime-scripts:/home/node/extensions/lime-extension/src/service/scripts-service/scripts
       - ./default.js:/home/node/webthings/gateway/config/default.js
     logging:
       driver: "json-file"
